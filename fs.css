@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgb(216, 205, 216);
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: brown;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: brown;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 40px;
+}
+
+.navigation a:hover {
+    color: black;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background: url(images/nasa-Q1p7bh3SHj8-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.4em;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(194, 31, 31);
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.main h3 {
+    color: #fff;
+    font-size: 2.1em;
+    font-weight: 700;
+    margin: 10px 0px 30px 0px;
+    letter-spacing: 1px;
+}
+
+.main-btn {
+    color: #fff;
+    background-color: brown;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+
+}
+
+.main-btn:hover {
+    background-color: rgb(153, 28, 28);
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.title {
+    color: brown;
+    font-size: 2.2em;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+    /* background-color: rgb(240, 152, 152) */
+}
+
+.icon {
+    color: rgb(189, 231, 73);
+    text-align: center;
+    font-size: 7em;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: brown;
+    font-size: 1.2em;
+    font-weight: 700px;
+    margin: 10px;
+}
+
+.courses {
+    background-color: rgb(66, 17, 17);
+}
+
+.courses .content {
+    margin-top: 30px;
+}
+
+.course-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    width: 23em;
+    min-height: 10em;
+    margin: 20px;
+    transition: 00.7s ease;
+    text-align: center;
+}
+
+.course-card:hover {
+    transform: scale(1.1);
+}
+
+.course-card:hover .course-image {
+    opacity: 0.8;
+}
+
+.course-image img {
+    padding: 5px;
+    height: 13em;
+}
+
+.course-info {
+    padding: 1em;
+}
+
+.course-category {
+    font-size: 0.9em;
+    color: black;
+}
+
+.course-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800px;
+    margin-top: 10px;
+}
+
+.more-details {
+    text-decoration: none;
+    color: brown;
+}
+
+.more-details:hover {
+    color: blueviolet;
+}
+
+.contact .icon {
+    font-size: 4.5em;
+}
+
+.contact .info h3 {
+    color: black;
+}
+
+.contact .info p {
+
+    font-size: 1.1em;
+}
+
+.footer {
+    background-color: rgb(66, 17, 17);
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 2em;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600px;
+}
+
+.footer span {
+    color: rgb(194, 31, 31);
+}
+
+.footer .social-icons a {
+    font-size: 1.3em;
+    padding-right: 12px;
+}
+
+@media (max-width:1023px) {
+    header {
+        padding: 12px 20px;
+    }
+
+    .navigation a {
+        padding-left: 1px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .main h2 {
+        font-size: 1em;
+    }
+
+    .main h3 {
+        font-size: 1.6em;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course-card {
+        width: 20em;
+    }
+
+    .course-image img {
+        height: 10em;
+    }
+}
+
+@media (max-width:641px) {
+    body {
+        font-size: 12px;
+    }
+
+    .main h2 {
+        font-size: 0.8em;
+    }
+
+    .main h3 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px) {
+    body {
+        font-size: 10px;
+    }
+
+    .main h2 {
+        font-size: 0.8em;
+    }
+
+    .main h3 {
+        font-size: 1.4em;
+    }
+}
